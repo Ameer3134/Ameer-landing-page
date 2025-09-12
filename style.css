@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #000080;
+    color: white;
+}
+.logo{
+    width: 30%;
+    
+    margin: 0;
+    position: relative;
+    left: 0;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+nav>ul{
+    display: flex;
+    flex-wrap: wrap;
+width: 90%;
+list-style-type: none;
+position: relative;
+right: 25px;
+justify-content: space-between;
+font-weight: 900;
+font-size: 0.8rem;
+
+
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+#home{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#home>h3{
+    margin-top: 5rem;
+    
+}
+.flyer{
+    width: 50%;
+}
+
+.quality{
+    width: 65%;
+    border: 5px solid burlywood;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+#services{
+background-color: chocolate;
+padding: 1rem;
+color: black;
+}
+#services>h2{
+    border-bottom: 3px solid burlywood;
+    width: fit-content;
+}
+.whatwedo{
+background-color: brown;
+padding: 1rem;
+border-radius: 10px;
+}
+#pricing{
+    padding: 1rem;
+}
+#pricing>p{
+ background-color: brown;
+padding: 1rem;
+border-radius: 10px;   
+}
+#pricing>h4{
+    border-bottom: 3px solid burlywood;
+    width: fit-content;
+}
+.boxes{
+    display: flex;
+    gap: 2px;
+}
+.box{
+    border: 5px solid brown;
+    width: 35%;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.box>p{
+    font-size: 10px;
+    
+}
+.box>h5{
+    background-color: brown;
+    font-size: 10px;
+    padding:10px 0;
+    margin-top: 0;
+    color: white;
+}
+.box>h4{
+    font-weight: bolder;
+}
+.reach{
+    text-align: center;
+    justify-items: center;
+}
+.rr{
+    background-color: brown;
+    padding: 0.5rem 1rem;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.r{
+    color: burlywood;
+    font-weight: 900;
+}
+address>p{
+    font-size: 10px;
+}
+footer{
+    background-color: burlywood;
+    text-align: center;
+    padding: 1rem;
+    font-size: 10px;
+}
+
+@media(min-width:426px){
+    
+        
+
+    .logo{
+        width: 10%;
+    }
+    nav>ul{
+        font-size: 20px;
+        gap: 10px;
+    }
+    header{
+        height: 80px;
+        
+    }
+    .flyer{
+        width: 50%;
+    }
+
+    address>p{
+    font-size: 16px;
+}
+.box>p{
+ font-size: 16px;}
+.r{
+    font-size: 20px;
+}
+
+footer{
+    font-size: 16px;
+}
+.rr{
+    padding: 1rem 4rem;
+    font-size: 20px;
+
+}
+.box>h5{
+    font-size: 20px;
+}
+
+.box{
+    width: 30%;
+}
+#pricing{
+    margin-left: 8%;
+}
+#pricing>p{
+    width: 50%;
+}
+
+.whatwedo{
+    width: 50%;
+}
+
+#services{
+    padding-left: 8%;
+}
+.quality{
+    width: 50%;
+}
+
+
+}

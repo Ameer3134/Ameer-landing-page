@@ -32,9 +32,10 @@ justify-content: space-between;
 font-weight: 900;
 font-size: 0.8rem;
 }
-.l,ll,lll:hover{
-    background-color: blue;
-    color: black;
+nav>ul>li:hover{
+    background-color:#00000ff;
+    color: #000000;
+    cursor: pointer;
 }
 
 a{
@@ -201,4 +202,5 @@ footer{
 
 
 }
+
 

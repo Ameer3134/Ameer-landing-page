@@ -32,7 +32,7 @@ justify-content: space-between;
 font-weight: 900;
 font-size: 0.8rem;
 }
-nav>ul:hover{
+.l,ll,lll:hover{
     background-color: blue;
     color: black;
 }
@@ -201,3 +201,4 @@ footer{
 
 
 }
+

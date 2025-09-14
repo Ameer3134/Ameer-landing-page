@@ -32,7 +32,7 @@ justify-content: space-between;
 font-weight: 900;
 font-size: 0.8rem;
 }
-nav>ul>li:hover{
+nav>ul>li>a:hover{
     background-color:#00000ff;
     color: #000000;
     cursor: pointer;
@@ -202,5 +202,6 @@ footer{
 
 
 }
+
 
 

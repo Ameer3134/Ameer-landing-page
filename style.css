@@ -33,7 +33,7 @@ font-weight: 900;
 font-size: 0.8rem;
 }
 nav>ul>li>a:hover{
-    background-color:#00000ff;
+    background-color:#0000ff;
     color: #000000;
     cursor: pointer;
 }
@@ -202,6 +202,7 @@ footer{
 
 
 }
+
 
 
 
